@@ -8,7 +8,7 @@ const sharedConfig = {
   seeds: {
     directory: './data/seeds',
   },
-  pool: {
+  pool: { //sqlite, not for postgres
     afterCreate: (conn, done) => {
       conn.run('PRAGMA foreign_keys = ON', done)
     },
