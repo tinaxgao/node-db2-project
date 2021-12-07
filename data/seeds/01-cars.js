@@ -20,8 +20,6 @@ const cars = [
     make: "Tesla",
     model: "Model X",
     mileage: 789,
-    title: "clean",
-    transmission: "manual",
   },
 ];
 
